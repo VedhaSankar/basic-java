@@ -2,7 +2,7 @@
 import java.util.Scanner;
 
 
-public class test {
+class test {
 
     public static void main (String[] args){
 
@@ -19,7 +19,7 @@ public class test {
 
         System.out.println("Enter address:");
         String address = scan.nextLine();
-        
+                
         System.out.println(name + " " + age + " " + address);
     }
 
