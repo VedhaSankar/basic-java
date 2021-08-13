@@ -1,3 +1,5 @@
+// javac odd_or_even
+
 import java.util.Scanner;
 
 public class odd_or_even {
