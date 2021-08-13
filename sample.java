@@ -2,7 +2,7 @@
 import java.util.Scanner;
 
 
-class test {
+class sample {
 
     public static void main (String[] args){
 
@@ -13,6 +13,8 @@ class test {
         String name = scan.nextLine();
 
         System.out.println("Enter age:");
+
+        // int age = scan.nextInt();
         int age = Integer.parseInt(scan.nextLine());
 
         // it doesn't input address here if we use nextInt. https://stackoverflow.com/questions/13102045/scanner-is-skipping-nextline-after-using-next-or-nextfoo
@@ -24,3 +26,5 @@ class test {
     }
 
 }
+
+// buffered reader
