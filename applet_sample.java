@@ -17,3 +17,4 @@ public class applet_sample extends Applet
         g.drawString("Hello world", 20, 20);
     }
 }
+
