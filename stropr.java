@@ -2,7 +2,7 @@ import java.util.Scanner;
 import java.util.ArrayList;
 class stropr
 {
-	private static ArrayList<String>var=new ArrayList<>();
+	private static ArrayList<String> var = new ArrayList<>();
 	private static Scanner scan=new Scanner(System.in);
 	private static void append()
 	{
@@ -62,7 +62,8 @@ class stropr
 					case 4:find();break;
 					case 5:display();break;
 					case 6:System.exit(0);
-					default:System.out.println("Invalid input");break;
+					default:System.out.println("Invalid input");
+					// break;
 				}
 		    	}while(true);
 	       	}
