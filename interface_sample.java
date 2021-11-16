@@ -17,8 +17,6 @@ class reputation implements end_game{
 }
 
 
-
-
 public class interface_sample {
     public static void main(String[] args) {
 
