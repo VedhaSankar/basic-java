@@ -27,11 +27,11 @@ class choose_color implements green_color, blue_color{
 
         String color = in.next();
 
-        if (color == "blue")
+        if (color.equals("blue"))
             color_navy();
         
 
-        else if (color == "green")
+        else if (color.equals("green"))
             color_mint();
 
         in.close();
